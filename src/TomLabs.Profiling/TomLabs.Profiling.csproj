@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Tomáš Bouda</Authors>
+    <PackageId>TomLabs.InlineProfiler</PackageId>
+    <Product>TomLabs.Profiling.InlineProfiler</Product>
+    <Description>Lightweigth class used for profiling code performace using timestamps.</Description>
+    <Copyright>Tomáš Bouda</Copyright>
+    <PackageLicenseUrl>https://github.com/TomasBouda/InlineProfiler/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/TomasBouda/InlineProfiler</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TomasBouda/InlineProfiler</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>InlineProfiler, profiler, code, profiling, class</PackageTags>
+    <PackageReleaseNotes>init</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+  </PropertyGroup>
+</Project>
