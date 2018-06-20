@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TomLabs.Profiling", "TomLabs.Profiling\TomLabs.Profiling.csproj", "{B1288EE0-9889-46BE-A64E-8162C03CFF28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{980F1276-825C-44BB-9F89-00422B6A0BF2}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		appveyor.yml = appveyor.yml
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+		release.ps1 = release.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLabs.Profiling.Tests", "TomLabs.Profiling.Tests\TomLabs.Profiling.Tests.csproj", "{F3D92E17-EC06-4981-A654-20D2181DCE21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1288EE0-9889-46BE-A64E-8162C03CFF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1288EE0-9889-46BE-A64E-8162C03CFF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1288EE0-9889-46BE-A64E-8162C03CFF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1288EE0-9889-46BE-A64E-8162C03CFF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D92E17-EC06-4981-A654-20D2181DCE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D92E17-EC06-4981-A654-20D2181DCE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D92E17-EC06-4981-A654-20D2181DCE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D92E17-EC06-4981-A654-20D2181DCE21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B74FD3D0-E6C0-42C2-B6CA-8BB990F008EF}
+	EndGlobalSection
+EndGlobal

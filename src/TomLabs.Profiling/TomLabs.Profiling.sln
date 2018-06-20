@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLabs.Profiling", "TomLabs.Profiling\TomLabs.Profiling.csproj", "{B1288EE0-9889-46BE-A64E-8162C03CFF28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ACD69A3D-A9DB-4DE2-A05A-055F8D58D02B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.gitignore = ..\..\.gitignore
+		..\..\LICENSE = ..\..\LICENSE
+		..\..\README.md = ..\..\README.md
+		release.ps1 = release.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1288EE0-9889-46BE-A64E-8162C03CFF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1288EE0-9889-46BE-A64E-8162C03CFF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1288EE0-9889-46BE-A64E-8162C03CFF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1288EE0-9889-46BE-A64E-8162C03CFF28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B74FD3D0-E6C0-42C2-B6CA-8BB990F008EF}
+	EndGlobalSection
+EndGlobal
