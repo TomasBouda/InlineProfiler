@@ -11,10 +11,11 @@
     <RepositoryUrl>https://github.com/TomasBouda/InlineProfiler</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>InlineProfiler, profiler, code, profiling, class</PackageTags>
-    <PackageReleaseNotes>Init</PackageReleaseNotes>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
-    <Version>1.0.0</Version>
+    <PackageReleaseNotes>icon</PackageReleaseNotes>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.1</Version>
+    <PackageIconUrl>https://cdn.rawgit.com/TomasBouda/InlineProfiler/master/icon.png</PackageIconUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 </Project>
