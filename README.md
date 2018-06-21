@@ -1,4 +1,4 @@
-# InlineProfiler
+# InlineProfiler [![NuGet](https://img.shields.io/nuget/v/TomLabs.InlineProfiler.svg)](https://www.nuget.org/packages/TomLabs.InlineProfiler/) [![Build status](https://ci.appveyor.com/api/projects/status/qh7pgj1fimtp2ksr?svg=true)](https://ci.appveyor.com/project/TomasBouda/inlineprofiler) [![Discord](https://img.shields.io/badge/chat-on%20discord-orange.svg)](https://discord.gg/jqWADRg)
 
 Lightweigth code profiling using timestamps.
 
