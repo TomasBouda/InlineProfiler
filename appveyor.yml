@@ -73,7 +73,7 @@ before_build:
 artifacts:
 
   # pushing all *.nupkg files in build directory recursively
-  - path: '**\*.nupkg'
+  - path: '**\*TomLabs.InlineProfiler.*.nupkg'
 
 #---------------------------------#
 #     deployment configuration    #
