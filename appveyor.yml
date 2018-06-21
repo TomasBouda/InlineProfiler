@@ -3,7 +3,7 @@
 #---------------------------------#
 
 # version format
-version: 1.0.0.{build}
+version: 1.0.1.{build}
 
 # branches to build
 branches:
@@ -89,8 +89,8 @@ deploy:
 
     # Deploy to GitHub Releases
   - provider: GitHub
-    release: v1.0.0 #
-    description: Init #
+    release: v1.0.1 #
+    description: icon #
     artifact: /.*\.nupkg/           # upload all NuGet packages to release assets
     draft: false
     auth_token:
