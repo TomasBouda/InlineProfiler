@@ -64,7 +64,7 @@ build:
 
 before_build:
   #- ps: C:\projects\testrepo\setVersion.ps1
-  - nuget restore
+  - nuget restore .\src\TomLabs.Profiling.sln
 
 #---------------------------------#
 #      artifacts configuration    #
@@ -73,7 +73,7 @@ before_build:
 artifacts:
 
   # pushing all *.nupkg files in build directory recursively
-  - path: '**\*.nupkg'
+  - path: '**\*TomLabs.InlineProfiler.*.nupkg'
 
 #---------------------------------#
 #     deployment configuration    #
