@@ -1,6 +1,8 @@
 # Updates all projects with given version number
 param([String]$targetVersion, [String]$releaseNotes)
 
+$excludedCsprojs = ("TomLabs.Profiling.Tests.csproj");
+
 # FUNCTIONS
 
 function IncreaseVersion(){
@@ -42,15 +44,16 @@ function Update-CsProj($csprojPath){
 
 #END FUNCTIONS
 
-$csProjs = Get-ChildItem $PWD -Recurse -Include *.csproj
+$csProjs = Get-ChildItem $PWD -Recurse -Include *.csproj -Exclude $excludedCsprojs
 
 foreach($csproj in $csProjs){
 	Update-CsProj($csproj)
 }
 
-(Get-Content "$PWD\appveyor.yml") -replace 'version: (.*)\.\{build\}', ('version: '+$targetVersion+'.{build}') | Out-File "$PWD\appveyor.yml" -Encoding utf8
+$appveyorYml = "$PWD\..\appveyor.yml"
+(Get-Content $appveyorYml) -replace 'version: (.*)\.\{build\}', ('version: '+$targetVersion+'.{build}') | Out-File $appveyorYml -Encoding utf8
 
 $desc = if(!$releasenotes) { '#description:  #' } else { 'description: '+$releaseNotes+' #' };
-(Get-Content "$PWD\appveyor.yml") -replace '(#)?description: (.*) #', ($desc) | Out-File "$PWD\appveyor.yml" -Encoding utf8
+(Get-Content $appveyorYml) -replace '(#)?description: (.*) #', ($desc) | Out-File $appveyorYml -Encoding utf8
 
-(Get-Content "$PWD\appveyor.yml") -replace 'release: (.*) #', ('release: v'+$targetVersion+' #') | Out-File "$PWD\appveyor.yml" -Encoding utf8
+(Get-Content $appveyorYml) -replace 'release: (.*) #', ('release: v'+$targetVersion+' #') | Out-File $appveyorYml -Encoding utf8
