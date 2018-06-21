@@ -13,6 +13,8 @@ Install-Package TomLabs.InlineProfiler
 ## Usage
 
 ```cs
+using TomLabs.Profiling;
+
 // Setup write output
 InlineProfiler.WriteTo(x => Debug.WriteLine(x));
 // And another one if you want, with custom formating
